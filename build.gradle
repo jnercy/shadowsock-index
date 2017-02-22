@@ -1,0 +1,32 @@
+group 'com.rotation'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: "idea"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+ext {
+    slf4jVersion = '1.7.22'
+    lombokVersion = '1.16.12'
+    jacksonVersion = '2.8.6'
+    logbackVersion = '1.1.9'
+    springbootVersion = '1.5.1.RELEASE'
+    mongoDBDriver = '3.4.2'
+}
+
+dependencies {
+    compile(
+            "org.projectlombok:lombok:$lombokVersion",
+            "ch.qos.logback:logback-classic:$logbackVersion",
+            "org.slf4j:jcl-over-slf4j:$slf4jVersion",
+            "org.springframework.boot:spring-boot-starter-thymeleaf:$springbootVersion"
+    )
+}

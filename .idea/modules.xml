@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shadowsock.iml" filepath="$PROJECT_DIR$/.idea/modules/shadowsock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shadowsock_main.iml" filepath="$PROJECT_DIR$/.idea/modules/shadowsock_main.iml" group="shadowsock" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shadowsock_test.iml" filepath="$PROJECT_DIR$/.idea/modules/shadowsock_test.iml" group="shadowsock" />
+    </modules>
+  </component>
+</project>
